@@ -1,0 +1,103 @@
+\begin{itemize}
+\item
+  Consider the function \(f(x) := x^2 + 1\). What is the polynomial
+  describing \(f(f(x))\)?
+
+  \begin{enumerate}
+  \def\labelenumi{(\Alph{enumi})}
+  \tightlist
+  \item
+    \(x^2 + 2\)
+  \item
+    \(x^4 + x^2 + 1\)
+  \item
+    \(x^4 + x^2 + 2\)
+  \item
+    \(x^4 + 2x^2 + 1\)
+  \item
+    \(x^4 + 2x^2 + 2\)
+  \end{enumerate}
+
+  \emph{Answer}: Option (E). Explanation from Vipul Naik:
+
+  \begin{quote}
+  We have
+  \(f(f(x)) = f(x^2 + 1) = (x^2 + 1)^2 + 1 = x^4 + 2x^2 + 1 + 1\), which
+  simplifies to option (E).
+
+  Option (A) is \((x^2 + 1) + 1 = x^2 + 2\). The error here is is not
+  squaring \(x^2 + 1\).
+
+  Option (D) is \((x^2 + 1)^2 = x^4 + 2x^2 + 1\). The error here is in
+  forgetting to add \(1\).
+
+  Options (B) and (C) are like (D) and (E), with an error in the
+  coefficient of \(x^2\).
+  \end{quote}
+\item
+  If \(f(g(x)) = 5\) and \(f(x) = x+3\) for all real \(x\), then
+  \(g(x) =\)
+
+  \begin{enumerate}
+  \def\labelenumi{(\Alph{enumi})}
+  \tightlist
+  \item
+    \(x-3\)
+  \item
+    \(3-x\)
+  \item
+    \(\frac{5}{x+3}\)
+  \item
+    \(2\)
+  \item
+    \(8\)
+  \end{enumerate}
+
+  \emph{Answer}: (D) \(g(x) = 2\). Explanation:
+
+  \begin{quote}
+  With the constant function \(g(x) = 2\), we evaluate
+  \(f(g(x)) = f(2) = 5\).
+  \end{quote}
+\item
+  For all positive functions \(f\) and \(g\) of the real variable \(x\),
+  let \(\sim\) be a relation defined by
+  \[f \sim g \text{ if and only if } \lim_{x\to \infty} \frac{f(x)}{g(x)} = 1.\]
+  Which of the following is NOT a consequence of \(f \sim g\)?
+
+  \begin{enumerate}
+  \def\labelenumi{(\Alph{enumi})}
+  \tightlist
+  \item
+    \(f^2 \sim g^2\)
+  \item
+    \(\sqrt{f} \sim \sqrt{g}\)
+  \item
+    \(e^f \sim e^g\)
+  \item
+    \(f + g \sim 2g\)
+  \item
+    \(g \sim f\)
+  \end{enumerate}
+
+  \emph{Answer}: (C) \(e^f \sim e^g\). Explanation from Charlie Rambo:
+
+  \begin{quote}
+  Let's find a counter example to \(e^f \sim e^g\). Consider
+  \(f(x) = x\) and \(g(x) = x+1\). Clearly
+  \(\lim_{x\to \infty} \frac{f(x)}{g(x)} = 1.\) But
+  \[\lim_{x\to\infty}\frac{e^x}{e^{x+1}} = lim_{x\to\infty}\frac1{e} = \frac1{e} \neq 1.\]
+  \end{quote}
+\end{itemize}
+
+\hypertarget{references}{%
+\subsubsection{References}\label{references}}
+
+\begin{itemize}
+\tightlist
+\item
+  Vipul Naik, \emph{Math 152 Week 1}.
+  \url{https://vipulnaik.com/math-152/}.
+\item
+  GRE Mathematics Test Form GR0568 and Form GR9367.
+\end{itemize}
