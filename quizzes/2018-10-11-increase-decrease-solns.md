@@ -7,7 +7,7 @@ bibliography: /home/colton/Downloads/coltongrainger.bib
 macros: true
 ---
 
-True-false questions from [@Ro18]; multiple choice from [@Na12].
+True-false questions from [@Ro18]; multiple choices questions from [@Na12].
 
 1. If $f(x)$ is a differentiable function, then $f(x)$ is a continuous function.
 
@@ -17,8 +17,7 @@ True-false questions from [@Ro18]; multiple choice from [@Na12].
 
     *Answer*: TRUE
 
-    *Explanation*: The derivative of $f(x)$ at $x =a$ is defined as $f'(a) = \lim_{h\to 0} \frac{f(a+h)-f(a)}{h}$ or equivalently $f'(a) = \lim{x \to a}\frac{f(x) - f(a)}{x-a}$. Assume $f(x)$ is differentiable at $x =a$. Then $$\lim{x \to a}\left(f(x) - f(a)\right) = \left( \lim_{x \to a}(x-a)\right)\left(\lim_{x\to a} \frac{f(x) - f(a)}{x-a}\right) = \lim_{x\to a}(x-a)\cdot f'(a) = 0$$ (verify last equality). What falls out is that $\lim_{x \to a} \left( f(x) - f(a)\right) = 0$, hence $\lim_{x\to a} f(x) = f(a)$, hence $f$ is continuous at the point $a$.
-
+    *Explanation*: The derivative of $f(x)$ at $x =a$ is defined as $f'(a) = \lim_{h\to 0} \frac{f(a+h)-f(a)}{h}$ or equivalently $f'(a) = \lim_{x \to a}\frac{f(x) - f(a)}{x-a}$. Assume $f(x)$ is differentiable at $x =a$. Then $$\lim_{x \to a}\left(f(x) - f(a)\right) = \left( \lim_{x \to a}(x-a)\right)\left(\lim_{x\to a} \frac{f(x) - f(a)}{x-a}\right) = \lim_{x\to a}(x-a)\cdot f'(a) = 0$$ (verify the last equality on your own). We deduce that $\lim_{x \to a} \left( f(x) - f(a)\right) = 0$, hence $\lim_{x\to a} f(x) = f(a)$, hence $f$ is continuous at the point $a$.
 
 2. If $g$ is differentiable at $x = a$ and $f$ is differentiable at $x = g(a)$, then $f \circ g$ is differentiable at $x = a$.
 
@@ -28,7 +27,7 @@ True-false questions from [@Ro18]; multiple choice from [@Na12].
 
     *Answer*: TRUE
 
-    *Explanation*: Apply the chain rule! Let $h(x) = f(g(x))$. By the chain rule, $h'(x) = f'(g(x))g'(x)$. Can we evaluate $h'(a)$? Yes, since $g$ is differentiable at $x = a$, the derivative $g'(a)$ exists. Moreover, $f$ is differentiable at $x = g(a)$, so $f'(g(a))$ also exists. We conclude that $h'(a) = f'(g(a))g'(a)$ exists, and so $h = f \circ g$ is differentiable at $x =a$.
+    *Explanation*: Apply the chain rule! Let $h(x) = f(g(x))$, then $h'(x) = f'(g(x))g'(x)$. Can we evaluate $h'(a)$? Yes, since $g$ is differentiable at $x = a$, the derivative $g'(a)$ exists. Moreover, $f$ is differentiable at $x = g(a)$, so $f'(g(a))$ also exists. We conclude that $h'(a) = f'(g(a))g'(a)$ exists, and so $h = f \circ g$ is differentiable at $x =a$.
 
 
 3. If $f''(c) = 0$, then $f(x)$ has an inflection point at $x=c$.
@@ -40,7 +39,7 @@ True-false questions from [@Ro18]; multiple choice from [@Na12].
 
     *Answer*: FALSE
 
-    *Explanation*: Recall that an inflection point is defined as a point at which a function changes concavity. That $f''(c) = 0$ is a necessary --- yet not sufficient --- condition for to have an inflection point at $(c, f(c)$. Do consider some counter examples here. Take the polynomial $f(x) = k$ for some fixed constant $k \in \RR$. Then $f''(x) = 0$ for all $x$, but none of these points correspond to points inflection, for $f$ is constant.
+    *Explanation*: Recall that an inflection point is defined as a point at which a function changes concavity. That $f''(c) = 0$ is a necessary --- yet not sufficient --- condition for to have an inflection point at $(c, f(c))$. Do consider some counter examples here. Take the polynomial $f(x) = k$ for some fixed constant $k \in \RR$. Then $f''(x) = 0$ for all $x$, but none of these points correspond to points of inflection, for $f$ is constant.
 
 
 4. True or false: The following function is differentiable at $x =0$, $f(x) := \begin{cases} x+1, & x \le 0\\ 1- x^2, & x > 0.\end{cases}$
@@ -52,10 +51,10 @@ True-false questions from [@Ro18]; multiple choice from [@Na12].
 
     *Explanation*: Check for continuity with left and right sided limits:
     $$\lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} (1-x^2) = 1 = \lim_{x\to 0^-} (x+1) = \lim_{x\to 0^-} f(x).$$
-    So $\lim_{x \to 0} f(x) = 1 = f(0)$. We've shown that $f$ is continuous. Is it differentiable? Consider the limit of difference quotient $\frac{f(h) - f(0)}{h}$ as $h \to 0$ from the left and right. 
+    So $\lim_{x \to 0} f(x) = 1 = f(0)$. We've shown that $f$ is continuous at $x=0$. Is $f$ differentiable at $x=0$? Consider the limit of difference quotient $\frac{f(h) - f(0)}{h}$ as $h \to 0$ from the left and right. 
     $$\text{from the left}\quad \lim_{h \to 0^-} \frac{f(h) - f(0)}{h} = \lim_{h \to 0^-}\frac{h+1-1}{h} = 1;$$
     $$\text{from the right}\quad \lim_{h \to 0^+} \frac{f(h) - f(0)}{h} = \lim_{h \to 0^+} \frac{1-h^2 -1}{h} = 0.$$
-    The left and right limits approach $1$ and $0$, respectively. Graphically, we'd have a sharp cusp at $x =0$ (Note the $f$ behaves linearly when $x\le 0$ and quadratically when $x \ge 0$). Therefore $f$ is not differentiable at $x=0$.
+    The left and right limits approach $1$ and $0$, respectively. Graphically, we'd have a sharp cusp at $x =0$ Therefore $f$ is not differentiable at $x=0$. (Note the $f$ behaves linearly when $x\le 0$ and quadratically when $x \ge 0$.)
 
 
 5.  Suppose $f$ is a function defined on a closed interval $[a,c]$.
