@@ -1,0 +1,3 @@
+I would like to be considered as a TA for the SASC math program. I have relevant life experience from 2016--2018, when I was a member of a services corps working at a refugee resettlement agency in Houston, TX, and the following year when I was again a member of a service corps working at a shelter for families experiencing homelessness in Olympia, WA. In both roles, I had opportunities to serve teenagers and adults going through unique and often difficult life transitions. As a TA for SASC, I believe I could cultivate a learning environment that is both rigorous and mindful of individual students in the program. Should no positions be available this term, I will likely follow up to see if any SASC positions are available in the future. Thank you.
+
+
