@@ -6,7 +6,20 @@ Subject: Re: SASC Requests -- further action needed by Thursday
 Reply-To: 
 In-Reply-To: <CAMHFBohbT4Tpq0tLph+JbDCL+ZweGn369y1ETu3DzmQDCPU6Bw@mail.gmail.com>
 
+My experience as a social work intern and as a teaching assistant motivates my application for the open SASC position.
+
+In the two years between my undergraduate and my start at CU, I interned at a refugee resettlement agency in Houston, TX and at an overnight shelter in Olympia, WA. I owe my understanding of pedagogy to my first supervisor, Shaoli Bhadra, the refugee medical care coordinator in Houston. Shaoli demonstrated that social work was critical pedagogy *applied*. For example, to remove barriers that individuals with limited English proficiency faced when accessing healthcare, we had both to *educate* clinicians (petitioning them to expand the scope of their services) and to *connect* with clients (building on their own skills and self-sufficiency).
+
+This view of pedagogy, along with my mathematical curiosity, informs my teaching: I aim to be rigorous, engaging, and inclusive. If I were to lead a SASC coseminar, believe I would leverage my mathematical ability against prior knowledge from social work. For this reason, I believe I am a good fit for the open SASC position.
+
+To list my prior teaching experience:
+
+- Analytical Physics I (PHY-271 at the College of Idaho), TA, Dr. Kathrine Devine, Fall 2015
+- Calculus 1 (MATH 1300), TA, Dr. Lee Roberson, Fall 2018
+    - see also <https://github.com/coltongrainger/fy19ta>
+
 On 2018-10-23, Kate Stange <kstange@math.colorado.edu> wrote:
+
 > Dear students who are interested in teaching SASC,
 > 
 > Thanks for your interest!  There appears to be one SASC slot open for
@@ -111,8 +124,3 @@ On 2018-10-23, Kate Stange <kstange@math.colorado.edu> wrote:
 > 
 > Best,
 > Kate
-> 
-> <http://pixel.katestange.net/>
-
--- 
-Colton
