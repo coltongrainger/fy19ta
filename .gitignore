@@ -1,3 +1,4 @@
 *.csv
 *.mov
 .ipynb_checkpoints
+data
