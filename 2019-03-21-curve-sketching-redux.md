@@ -11,22 +11,22 @@ Your name (print clearly in capital letters): \underline{\hspace{8cm}}
 
 This is an **ungraded** quiz that will count for attendance; it is due by the end of recitation.
 
-## Definitions and Comments
+## Definitions and comments
 
-1. A **zero** (or a **root**) of a function $f$ is a number $r$ such that $f(r) = 0$. 
+1. A **zero** (or a **root**) of a function $f$ is $$\text{a point $r$ such that $f(r) = 0$.}$$ 
 
-    i. The term *root* is generally reserved for the study of *polynomial functions*.
-    ii. For example, if $r$ is a root of the polynomial $f$ (i.e., $f(r) = 0$), then $$f(x) = (x - r)g(x) \qq{for some polynomial function $g$.}$$
+    i. The term *root* is traditionally^["The **roote quadrat** of the whole number, is the desired distance or line Hypothenusal." (Digges, *Pantom*, 1571).] used for the study of polynomial functions.
+    ii. For example, if $r$ is a root of the polynomial function $p$ (that is, if $p(r) = 0$), then $$p(x) = (x - r)q(x) \qq{for some polynomial function $q$.}$$
 
-1. A **critical point** of a function $f$ is a number $a$ such that $$f'(a) = 0.$$ 
+1. A **critical point** of a function $f$ is $$\text{a point $a$ such that $f'(a) = 0$.}$$
 
     i. The number $f(a)$ itself is called a **critical value** of $f$.
 
-2. A **point of local extremum** of a function $f$ is a point of either local maximum or minimum.
+2. A **point of local extremum** of a function $f$ is $$\text{a point of either local maximum or minimum.}$$
 
     i. If $b$ is a point of local extremum, we say $f(b)$ is a **local extreme value**.
 
-3. A number $c$ is an **inflection point** of $f$ if the tangent line to $f$ at $(c,f(c))$ crosses the graph of $f$.
+3. An **inflection point** of a function $f$ is $$\text{a point $c$ such that the tangent line to $f$ at $(c,f(c))$ crosses the graph of $f$.}$$
 
     i. In order for $c$ to be an inflection point of a function $f$, it is necessary that $f''$ should have different signs to the left and right of $c$.
 
