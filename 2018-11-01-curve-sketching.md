@@ -23,7 +23,7 @@ Print your **full name** and **three digit section number** in the top right cor
     (B) critical points
     (C) points of inflection
     (D) local extreme values
-    (E) neither (D) and (C)
+    (E) neither (D) nor (C)
 
 3.  What information **CAN WE** obtain from the second derivative?
 
