@@ -1,5 +1,5 @@
 ---
-title: Project Solutions à la SageMath
+title: Project Solutions à la SageMath (Week 10)
 author: Colton Grainger (Math 1300)
 date: 2019-03-20
 revised:
@@ -19,7 +19,7 @@ To differentiate $f(x)$ *with respect to* $x$, i.e., to find $\dv{f}{x}$.
 
     diff(f(x), x)
 
-To differentiate twice, i.e., to find $\dv[n]{f}{x}$.
+To differentiate twice, i.e., to find $\dv[2]{f}{x}$.
 
     diff(f(x), x, 2)
 

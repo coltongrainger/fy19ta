@@ -1,10 +1,9 @@
 ---
 title: Attendance Quiz (Week 10)
-author: Colton Grainger
+author: Colton Grainger (Math 1300)
 date: 2019-03-17
 bibliography: /home/colton/coltongrainger.bib
-nonumbering: true
-revised:
+revised: 2019-03-20
 ---
 
 Your name (print clearly in capital letters): \underline{\hspace{8cm}}
