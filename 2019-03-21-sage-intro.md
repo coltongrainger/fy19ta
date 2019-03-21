@@ -1,11 +1,11 @@
 ---
-title: Guide to Plotting with Sage
-author: Colton Grainger
+title: Project Solutions à la SageMath
+author: Colton Grainger (Math 1300)
 date: 2019-03-20
 revised:
 ---
 
-Today we'll plot *with and without* Sage^[Sage is a family of free open-source mathematics software packages, first released in 2005 by William Stein (among others) at the University of Washington.]. You will need *some sort* of computer to access $$\texttt{sagecell.sagemath.org}.$$ (If you have trouble, these links are all posted at `quamash.net/math1300`.) You can also scan this QR code.
+One goal today is to be able to plot *with and without* Sage^[Sage is a family of free open-source mathematics software packages, first released in 2005 by William Stein (among others) at the University of Washington.]. You will need *some sort* of computer to access $$\texttt{sagecell.sagemath.org}.$$ (If you have trouble, these links are all posted at `quamash.net/math1300`.) You can also scan this QR code.
 
 ![<https://sagecell.sagemath.org/?q=ilvouj>](2019-03-21-qr-intro.png){height=5cm}
 
@@ -59,3 +59,5 @@ Again, *make a complete attempt* at problem 2 before looking at this solution.
 ## (Optional) Reading material
 
 If you like Sage, I have posted a Gregory Bard's *Sage for Undergraduates* along with two other guides at `quamash.net/math1300`. Bard's introduction (pages 1--20) and access to `sagecell.sagemath.org` is legit the best place to start.
+
+## Enjoy your Spring Break!
